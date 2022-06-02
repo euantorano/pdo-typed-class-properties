@@ -61,7 +61,7 @@ SQL;
         $result = $stmt->fetchObject(Post::class);
 
         if (false === $result) {
-            return false;
+            return null;
         }
 
         return $result;
