@@ -1,0 +1,28 @@
+{
+    "name": "euantorano/pdo-typed-class-properties",
+    "description": "An example project showing the use of PDO with typed class properties.",
+    "type": "project",
+    "require-dev": {
+        "ext-pdo_mysql": "*",
+        "ext-pdo_pgsql": "*",
+        "phpunit/phpunit": "^9"
+    },
+    "license": "BSD-3-Clause",
+    "autoload": {
+        "psr-4": {
+            "EuanTorano\\PdoTypedClassProperties\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "EuanTorano\\PdoTypedClassProperties\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Euan Torano",
+            "email": "euan@torano.co.uk"
+        }
+    ],
+    "require": {}
+}
